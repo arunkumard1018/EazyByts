@@ -131,13 +131,6 @@ export const payments: Payment[] = [
         email: "manish.kumar@hindmail.co.in",
     }
 ]
-
-// id: string
-// businessLogo:string
-// BusinessName: String
-// revenue:number
-// totalInvoices:number
-// totalRevenue:number
 export const business: Business[] = [
     {
         id: "728ed52f",
