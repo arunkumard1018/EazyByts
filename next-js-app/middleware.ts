@@ -1,4 +1,3 @@
-// middleware.js
 import { NextRequest, NextResponse } from 'next/server';
 
 // paths that do not require authentication
