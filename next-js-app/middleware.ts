@@ -6,8 +6,6 @@ const publicPaths = ['/', '/login', '/register'];
 export function middleware(req: NextRequest, resp: NextResponse) {
     const { cookies, url } = req;
     const currentPath = req.nextUrl.pathname;
-
-    // Accessing JWt Token from HttpOnly Cookie
     const jwt = cookies.get('token');
 
     // if user already Logged in and trying to access login and Register
